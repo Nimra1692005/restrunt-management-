@@ -1,0 +1,6 @@
+# Smart Table demo — CPU-friendly stack.
+# torch is installed as the CPU build; on a laptop without GPU use:
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu
+ultralytics>=8.2.0
+opencv-python>=4.9.0
+numpy>=1.24.0
