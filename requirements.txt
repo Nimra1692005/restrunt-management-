@@ -1,6 +1,7 @@
 # Smart Table demo — CPU-friendly stack.
-# torch is installed as the CPU build; on a laptop without GPU use:
-#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu
+# Web/Spaces deploy me headless OpenCV use hota hai (server pe GUI libs nahi hote).
+# Desktop live window (cv2.imshow) chahiye to: pip install opencv-python (full) badal do.
 ultralytics>=8.2.0
-opencv-python>=4.9.0
+opencv-python-headless>=4.9.0
 numpy>=1.24.0
+gradio>=4.0.0

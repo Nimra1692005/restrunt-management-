@@ -84,7 +84,12 @@ and shows an annotated `output.mp4` (same logic, no webcam window needed).
 | `state.py` | seated smoothing + per-chair/per-table timers |
 | `drawing.py` | green/red boxes, on-screen timers, status line |
 | `logging_util.py` | CSV event log |
+| `colab_run.py` | headless (no-window) video runner for Colab |
+| `app.py` | **web app (Gradio): live webcam + photo + video** |
 | `requirements.txt` | dependencies |
+
+Docs: `README.md` (ye file), `COLAB.md` (Colab run steps), `DEPLOY.md` (Hugging
+Face Spaces pe web app deploy karna).
 
 ---
 

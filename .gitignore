@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# YOLO model weights (auto-downloaded, large — never commit)
+*.pt
+*.onnx
+
+# Test media and generated outputs (privacy: no customer video/images in git)
+*.mp4
+*.avi
+*.mov
+*.mkv
+clip.mp4
+output.mp4
+output.avi
+events.csv
+*.log
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Colab / notebook runtime junk
+.ipynb_checkpoints/
