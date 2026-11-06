@@ -148,6 +148,9 @@ def build_ui():
     return demo
 
 
+# Module-level `demo` — Hugging Face Spaces (Gradio SDK) ise automatically
+# dhoondhta hai aur chala deta hai. `python app.py` bhi chalta hai.
+demo = build_ui()
+
 if __name__ == "__main__":
-    demo = build_ui()
     demo.launch()
