@@ -122,9 +122,9 @@ def build_ui():
         with gr.Tab("📸 Photo / Snapshot"):
             with gr.Row():
                 with gr.Column():
-                    img_in = gr.Image(type="numpy", label="Upload ya camera se lo")
-                    snap = gr.Webcam(source="webcam", label="Snap from webcam",
-                                      visible=False)
+                    img_in = gr.Image(type="numpy",
+                                      sources=["upload", "webcam"],
+                                      label="Upload ya camera se lo")
                     run_img = gr.Button("Analyze", variant="primary")
                 with gr.Column():
                     img_out = gr.Image(label="Result")
